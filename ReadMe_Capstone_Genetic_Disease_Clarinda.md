@@ -135,14 +135,14 @@ The following will be tested:
 - Validate that information is publicly accessible to allow viewing, but not unauthorized editing.
 
 # 7. File Structure
-📂 CAPSTONE1_Clarinda_Genetic_Diseases_Program.py – Main Python script
-📂 ReadMe_Capstone_Genetic_Disease_Clarinda.md – Detailed project background
-📂 ReadMe_2_Genetic_Disease_Informations.md – Additional genetic data for testing
+- 📂 CAPSTONE1_Clarinda_Genetic_Diseases_Program.py – Main Python script
+- 📂 ReadMe_Capstone_Genetic_Disease_Clarinda.md – Detailed project background
+- 📂 ReadMe_2_Genetic_Disease_Informations.md – Additional genetic data for testing
 
 # 8. Future Enhancements
-🚀 Implement a GUI for user-friendly interaction
-🚀 Expand the database with real-world genetic data sources
-🚀 Integrate machine learning for mutation impact predictions
+- 🚀 Implement a GUI for user-friendly interaction
+- 🚀 Expand the database with real-world genetic data sources
+- 🚀 Integrate machine learning for mutation impact predictions
 
 # 9. Conclusion
 
