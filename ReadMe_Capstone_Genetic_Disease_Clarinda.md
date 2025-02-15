@@ -32,7 +32,7 @@ This project primarily aims to establish a role-based CRUD (Create, Read, Update
 
 - Have the ability to restore deleted data entries for integrity reasons.
 
-#4. System Features
+# 4. System Features
 
 ## Role-Based Authentication
 
@@ -52,57 +52,57 @@ The system is stratified into two categories:
 
 The System is storing genetic data in form of a Python structure; each entry should contain:
 
-- **Gene Name**: The designation of the gene.
+  - **Gene Name**: The designation of the gene.
 
-- **Description**: A brief detail of the gene.
+  - **Description**: A brief detail of the gene.
 
-- **Function**: The role in metabolism of the gene.
+  - **Function**: The role in metabolism of the gene.
 
-- **Diseases**: List of some diseases caused by the mutations in the gene.
+  - **Diseases**: List of some diseases caused by the mutations in the gene.
 
-- **Location**: The locus of the gene on the chromosome.
+  - **Location**: The locus of the gene on the chromosome.
 
-- **Mutations**: Some common changes which occur in the gene.
+  - **Mutations**: Some common changes which occur in the gene.
 
-- **Expression**: Levels of expression of the gene.
+  - **Expression**: Levels of expression of the gene.
 
-- **Mutation Effect**: The effect of the mutations in the gene on living organisms.
+  - **Mutation Effect**: The effect of the mutations in the gene on living organisms.
 
 
 # 5. CRUD Operations Program 
 
 The system does work with the following features:
 
-**Access Gene Data:** Allows users to view all gene entries in an organized manner irrespective of their roles.
+  - **Access Gene Data:** Allows users to view all gene entries in an organized manner irrespective of their roles.
 
-**Add Gene Entry:** A function that allows Admins and Researchers to put new gene entries in the system.
+  - **Add Gene Entry:** A function that allows Admins and Researchers to put new gene entries in the system.
 
-**Update Gene Entry:** Allows authorized users to amend the particulars of a specific gene.
+  - **Update Gene Entry:** Allows authorized users to amend the particulars of a specific gene.
 
-**Remove Gene Entry:** An action that deletes a gene from the system with the ability to retrieve it if needed.
+  - **Remove Gene Entry:** An action that deletes a gene from the system with the ability to retrieve it if needed.
 
-**Restore Deleted Entry:** Admins retrieve or restore the deleted gene records.
+  - **Restore Deleted Entry:** Admins retrieve or restore the deleted gene records.
 
 ## Main Menu Functions
 Once the program starts, the user has the following options on the menu:
 
-**View All Gene Entries:** Present all noted gene entries (available to all users).
+  - **View All Gene Entries:** Present all noted gene entries (available to all users).
 
-**Add a Gene Entry:** Add further new gene details (Admin/Researcher).
+  - **Add a Gene Entry:** Add further new gene details (Admin/Researcher).
 
-**Update a Gene Entry:** Change previously added data (Admin/Researcher).
+  - **Update a Gene Entry:** Change previously added data (Admin/Researcher).
 
-**Delete a Gene Entry:** Deletion moves a backup copy to store and access later (Admin/Researcher).
+  - **Delete a Gene Entry:** Deletion moves a backup copy to store and access later (Admin/Researcher).
 
-**Restore Deleted Data:** Retrieve deleted gene entries (Admin Only).
+  - **Restore Deleted Data:** Retrieve deleted gene entries (Admin Only).
 
-**Log In:** Users authenticate themselves to access the system based on their roles.
+  - **Log In:** Users authenticate themselves to access the system based on their roles.
 
-**Log Out:** The current user is logged out.
+  - **Log Out:** The current user is logged out.
 
-**Exit:** The program is turned off.
+  - **Exit:** The program is turned off.
 
-# 5. Implementation Details
+# 6. Implementation Details
 
 ## Libraries Used
 
@@ -122,7 +122,7 @@ Once the program starts, the user has the following options on the menu:
 
 6. Users have the option of logging out or quitting the program whenever they see fit.
 
-# 6. Testing and Validation
+# 7. Testing and Validation
 
 The following will be tested:
 
@@ -134,17 +134,17 @@ The following will be tested:
 
 - Validate that information is publicly accessible to allow viewing, but not unauthorized editing.
 
-# 7. File Structure
+# 8. File Structure
 - 📂 CAPSTONE1_Clarinda_Genetic_Diseases_Program.py – Main Python script
 - 📂 ReadMe_Capstone_Genetic_Disease_Clarinda.md – Detailed project background
 - 📂 ReadMe_2_Genetic_Disease_Informations.md – Additional genetic data for testing
 
-# 8. Future Enhancements
+# 9. Future Enhancements
 - 🚀 Implement a GUI for user-friendly interaction
 - 🚀 Expand the database with real-world genetic data sources
 - 🚀 Integrate machine learning for mutation impact predictions
 
-# 9. Conclusion
+# 10. Conclusion
 
 This project greatly increased my programming abilities, which would allow me to assume my role as a database manager as well as a biological researcher at a large-scale institution. This work for sure has driven my passion to apply Biotechnology, Bioinformatics, and Data Science integration to practical problems through my research works. I must admit that the knowledge I gathered exceeds the initial expectations set upon myself.
 
