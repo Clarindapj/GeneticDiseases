@@ -1,4 +1,4 @@
-# **Capstone Project 1: **
+# **Capstone Project 1:**
 # **System for Managing Databases of Genetic Disorders**
 
 # 1. Background
